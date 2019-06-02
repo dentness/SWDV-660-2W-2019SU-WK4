@@ -1,5 +1,11 @@
 import socket
 
+"""
+SWDV 660 2W 19/SU1
+Joe Dent
+Week 4 Assignment
+"""
+
 # Constants
 ADDRESS = ''
 DEFAULT_BUFFER_SIZE = 4096

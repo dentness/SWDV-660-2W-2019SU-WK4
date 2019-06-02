@@ -1,10 +1,17 @@
 import socket
 
+"""
+SWDV 660 2W 19/SU1
+Joe Dent
+Week 4 Assignment
+"""
+
 # constants
 ADDRESS = ''
 DEFAULT_BUFFER_SIZE = 4096
 DEFAULT_ENCODING = 'UTF-8'
 PORT = 9500
+
 
 def call(msg: str, addr: str, port: int) -> str:
     """call a service with the provided msg.
@@ -25,7 +32,6 @@ def call(msg: str, addr: str, port: int) -> str:
 
 
 def main():
-
     print(call('free willie', ADDRESS, PORT))
     print(call('Yo', ADDRESS, PORT))
     print(call('Hello', ADDRESS, PORT))
